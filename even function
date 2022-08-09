@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Main {
+  public static void main(String[] args) {
+    Scanner in = new Scanner(System.in);
+      System.out.println("Enter an Integer for finding even or not : ");
+      int a = in.nextInt();
+      System.out.println(isEven(a));
+  }
+    static boolean isEven(int a){
+        if(a % 2 == 0){
+            return true;
+        }
+        return false;
+    }
+}
